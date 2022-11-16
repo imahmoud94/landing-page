@@ -160,3 +160,42 @@ button{
     font-weight: bold;
     align-self: flex-end;
 }
+
+.register{
+    padding: 90px 200px;
+}
+
+.container{
+    padding: 40px 12%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 13px;
+    background-color: #3882F6;
+}
+
+.container button{
+    color: white;
+    border: 2px solid white;
+    align-self: center;
+}
+
+.footer{
+    background-color: #1F2937;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.text p:nth-child(1){
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.text p:nth-child(2){
+    font-size: 16px;
+    color: #E5E7EB;
+}
